@@ -1,14 +1,18 @@
 import requests
-import json
+import pandas as pd
 payload={
         'apikey':'13ee848c',
-        't':'spider man homecoming',
-        'y':'2017'
+        't':'spider man homecoming'
 
 }
 response=requests.get("http://www.omdbapi.com",params=payload)
 
 print(response.status_code)
 print(response.json())
-data=json.dumps(response.json())
-print(data)
+
+data=response.json()
+print(type(data))
+
+print(data["Title"])
+#print(data.title)
+#print(pd.Dataframe(response.json()))

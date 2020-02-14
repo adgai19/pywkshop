@@ -8,6 +8,6 @@ people=response.json()["people"]
 
 print(people)
 print("-"*100,"\n"*5)
-print("Craft\tName")
+print("Craft\t Name")
 for li in people:
   print(li['craft'],"\t",li["name"])

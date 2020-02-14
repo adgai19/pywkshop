@@ -1,4 +1,6 @@
 import math
+dir(math) 
+print(math.__doc__)
 pi=math.pi
 print(pi)
 print(math.ceil(pi))

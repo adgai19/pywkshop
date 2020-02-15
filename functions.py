@@ -3,6 +3,7 @@ def hello():
         print("hello world")
 
 def helloname(name):
+        '''prints hello S where S '''
         print("hello "+name)
 
 def returnsum(a,b):

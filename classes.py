@@ -1,3 +1,4 @@
+
 import math
 class complexno:
   '''complex no class '''
@@ -7,14 +8,17 @@ class complexno:
     self.imagenary=imagenary
   
   def __repr__(self):
+    
     return '{}+{}j'.format(self.real,self.imagenary)
   
   def add(self,no2):
+    '''returns sum of two complex numbers'''
     real=self.real+no2.real
     imagenary=self.imagenary+no2.imagenary
     return complexno(real,imagenary)
   
   def sub(self,no):
+    '''returns '''
     real=self.real-no.real
     imagenary=self.imagenary-no.imagenary
     return complexno(real,imagenary)

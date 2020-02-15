@@ -12,9 +12,7 @@
 4.
 
 ##### topics not covered
-1. OOP python 
-2. Variable-length arguments
-3. Recursion 
-4. 
+1. Variable-length arguments
+
 ## todo
 Add slides on object oriented python 

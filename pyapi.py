@@ -1,7 +1,7 @@
 import requests
+print(requests.__version__)
 response = requests.get("http://api.open-notify.org/astros.json")
 print(response.status_code)
-print(response.json())
 #print(response.content)
 people=response.json()["people"]
 

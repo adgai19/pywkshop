@@ -19,7 +19,7 @@ def rec(no):
 
 
 
-def defaultarg(test="aditya"):
+def defaultarg(test="cowsay"):
         print("hello",test)
 
 def multipleargs(arg1, arg2="hello"):
